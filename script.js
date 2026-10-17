@@ -1,6 +1,6 @@
 /* ───
    Project: Secret Birthday Gift
-   Author: @saklin_01
+   Author: coustomized by vishal
 ─── */
 
 /* ─── CLOCK DIAL TICKS & NUMERALS ─── */
@@ -59,7 +59,7 @@ function playMidnightChime() {}
 })();
 
 /* ─── SHINCHAN PASSCODE VERIFICATION (4 DIGITS) ─── */
-const TARGET_PASSCODE = "2005"; // 4-digit passcode
+const TARGET_PASSCODE = "1107"; // 4-digit passcode
 
 const SHINCHAN_GIFS = {
   ask: "assets/shinchan-birthday.png",
@@ -115,7 +115,7 @@ function submitBirthdayDate() {
   }
 
   if (enteredDigits === TARGET_PASSCODE) {
-    // Correct Passcode (2005) - Directly transition to the Surprise Question Screen
+    // Correct Passcode (1107) - Directly transition to the Surprise Question Screen
     const danceGif = document.getElementById('dance-gif');
     if (danceGif) {
       danceGif.src = DANCE_GIF_URL;
